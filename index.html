@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task 1</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">   <!--Contains The form and Details-->
+            <h1>CONTACT FORM</h1> <!--Title-->
+            <!-- ============================================================================== -->
+            <div class="div-msg"> <!--Form-->
+                <form method="POST" autocomplete="off">
+                    <input type="text"    class="name" name="Name" placeholder="YOUR NAME">
+                    <input type="email"   class="email" name="Email" placeholder="YOUR EMAIL ADDRESS" required>
+                    <input type="text"    class="company" placeholder="COMPANY">
+                    <input type="number"  class="phone" placeholder="PHONE" required>
+                    <textarea class="msg" placeholder="YOUR MESSAGE" required></textarea>
+                    <input type="submit"  class="submit" value="SEND MESSAGE">
+                    <div class="clear"></div>
+                </form> 
+            </div>
+            <!-- ============================================================================== -->
+            <div class="details"> <!--Details-->
+                <h2>YOU CAN FIND US HERE</h2>
+                <h5>SAMPLE ADDRESS,SAMPLE STREET.123/45</h5>
+                <h5 class="maps">OR ON MAPS</h5>
+                <ul>
+                    <li>+3 (000) 0123 3210</li>
+                    <li>+3 (000) 0456 3210</li>
+                </ul>
+            </div>
+            <div class="clear"></div> <!--Clearing Div for Float-->
+        </div>
+    </section>
+</body>
+</html>
