@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{  
+   background-color: #11cfcf;
+   padding: 3%;
+}
+
+/* Contains The form and Details */
+.container h1{
+    text-align: center;
+    color: white;
+}
+
+/* ========================================================== */
+/* Div contains Form */
+.div-msg{
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+/* Clear Div */
+.clear{
+    clear: both;
+}
+
+/* The actual form */
+form{
+    width: 100%;
+}
+/* the inputs */
+.name,.email,.company,.phone,.msg{
+    padding: 7px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.name,.email{
+    width: 93.5%;
+}
+
+.company{
+    width: 45%;    
+}
+
+.phone{
+    width: 39.5%;
+    margin-left: 22px;
+}
+
+.msg{
+    width: 93.5%;
+    height: 80px;
+    resize: none;
+}
+.submit{
+    background-color: yellow;
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+/* ================================================ */
+/* The details div */
+.details{
+    float: right;
+    width: auto;
+    color: white;
+    margin-top: 111px;
+    margin-right: 10%;
+}
+.details ul{
+    list-style-position: inside;
+    margin-top: 10px;
+}
+.details .maps{
+    color:yellow;
+    margin-top: 0px;
+}
+.details h5{
+    margin-top: 10px;
+}
